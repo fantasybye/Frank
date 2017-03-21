@@ -1,0 +1,34 @@
+2017-3-20 21:03:45
+1.
+&nbsp;（分号不能忘） %20 表示空格，<br/>纯换行。
+在html文本中间输入多个空格只会按一个算，回车也一样按空格算。使用<pre>标签会处理回车和空格。
+
+2.
+地址：<address> 
+计算机输出：<code><samp><var><kbd><tt> 
+缩写：<abbr>（IE5无效） <acronym>
+文字显示顺序:<bdo dir="rtl(ltr)">
+引用：（引号）<q>方便样式设计 
+	（块）<blockquote> （斜体）<cite>
+	<del>删除文字 <ins>下划线
+	<map> <area> coords
+文本格式:粗体<b> <strong> 斜体<i><em>
+
+2017-3-21 22:41:53
+1.
+html表格：<table>整表，<th>表头（rowspan 横跨），<tr>行，<td>行内的列（单元） <caption>标题 
+
+2.
+html列表：<ul>（style）无序列表 <ol>（type="a" .etc）有序列表 <li>列表项
+
+3.
+区块元素vs内联元素：区块元素会以新行开始结束。
+<span><div>无特定含义，用于组合和样式设计。
+<dl>自定义列表（项目<dt>&注释<dd>）
+
+4.
+html表单<form>:
+输入内容<input>（type：text password radio checkbox submit button）
+下拉列表<select> <option>
+表单元素分组<fieldset>(<legend>标题)
+
